@@ -73,144 +73,334 @@ body{
     border: inset black;
     grid-column:1/2 ;
     grid-row:10/15;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 #questions1-2{
     background-color: blue;
     border: inset black;
     grid-column:2/3 ;
     grid-row:10/15;
+    font-size: 40px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 #questions1-3{
     background-color: blue;
     border: inset black;
     grid-column:3/4 ;
     grid-row:10/15;
+    font-size: 40px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 #questions1-4{
     background-color: blue;
     border: inset black;
     grid-column:4/5 ;
     grid-row:10/15;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 #questions1-5{
     background-color: blue;
     border: inset black;
     grid-column:5/6 ;
     grid-row:10/15;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions1-6{
     background-color: blue;
     border: inset black;
     grid-column:6/7 ;
     grid-row:10/15;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions2-1{
     background-color: blue;
     border: inset black;
     grid-column:1/2 ;
     grid-row:15/20;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions2-2{
     background-color: blue;
     border: inset black;
     grid-column:2/3 ;
     grid-row:15/20;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions2-3{
     background-color: blue;
     border: inset black;
     grid-column:3/4 ;
     grid-row:15/20;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions2-4{
     background-color: blue;
     border: inset black;
     grid-column:4/5;
     grid-row:15/20;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions2-5{
     background-color: blue;
     border: inset black;
     grid-column:5/6 ;
     grid-row:15/20;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions2-6{
     background-color: blue;
     border: inset black;
     grid-column:6/7 ;
     grid-row:15/20;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions3-1{
     background-color: blue;
     border: inset black;
     grid-column:1/2 ;
     grid-row:20/25;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions3-2{
     background-color: blue;
     border: inset black;
     grid-column:2/3 ;
     grid-row:20/25;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions3-3{
     background-color: blue;
     border: inset black;
     grid-column:3/4 ;
     grid-row:20/25;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions3-4{
     background-color: blue;
     border: inset black;
     grid-column:4/5 ;
     grid-row:20/25;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions3-5{
     background-color: blue;
     border: inset black;
     grid-column:5/6 ;
     grid-row:20/25;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions3-6{
     background-color: blue;
     border: inset black;
     grid-column:6/7 ;
     grid-row:20/25;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions4-1{
     background-color: blue;
     border: inset black;
     grid-column:1/2 ;
     grid-row:25/30;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions4-2{
     background-color: blue;
     border: inset black;
     grid-column:2/3 ;
     grid-row:25/30;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions4-3{
     background-color: blue;
     border: inset black;
     grid-column:3/4 ;
     grid-row:25/30;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions4-4{
     background-color: blue;
     border: inset black;
     grid-column:4/5 ;
     grid-row:25/30;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions4-5{
     background-color: blue;
     border: inset black;
     grid-column:5/6 ;
     grid-row:25/30;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions4-6{
     background-color: blue;
     border: inset black;
     grid-column:6/7 ;
     grid-row:25/30;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 #questions5-1{
@@ -218,36 +408,84 @@ body{
     border: inset black;
     grid-column:1/2 ;
     grid-row:30/35;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions5-2{
     background-color: blue;
     border: inset black;
     grid-column:2/3 ;
     grid-row:30/35;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions5-3{
     background-color: blue;
     border: inset black;
     grid-column:3/4 ;
     grid-row:30/35;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions5-4{
     background-color: blue;
     border: inset black;
     grid-column:4/5 ;
     grid-row:30/35;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions5-5{
     background-color: blue;
     border: inset black;
     grid-column:5/6 ;
     grid-row:30/35;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions5-6{
     background-color: blue;
     border: inset black;
     grid-column:6/7 ;
     grid-row:30/35;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 #questions6-1{
@@ -255,36 +493,84 @@ body{
     border: inset black;
     grid-column:1/2 ;
     grid-row:35/40;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions6-2{
     background-color: blue;
     border: inset black;
     grid-column:2/3 ;
     grid-row:35/40;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions6-3{
     background-color: blue;
     border: inset black;
     grid-column:3/4 ;
     grid-row:35/40;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions6-4{
     background-color: blue;
     border: inset black;
     grid-column:4/5 ;
     grid-row:35/40;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions6-5{
     background-color: blue;
     border: inset black;
     grid-column:5/6 ;
     grid-row:35/40;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #questions6-6{
     background-color: blue;
     border: inset black;
     grid-column:6/7 ;
     grid-row:35/40;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 #modalback {
@@ -560,5 +846,9 @@ body{
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
+}
+a{
+    text-decoration: none;
+    color:gold;
 }
 
