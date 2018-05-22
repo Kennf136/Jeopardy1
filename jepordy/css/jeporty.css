@@ -862,3 +862,11 @@ a{
     color:gold;
     font-size: 40px;
 }
+.g{
+    margin: 5px;
+    color: whitesmoke;
+}
+.g:hover{
+    color:gold;
+    font-size: 40px;
+}
