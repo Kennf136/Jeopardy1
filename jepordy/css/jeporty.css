@@ -587,11 +587,13 @@ body{
 
 #modal-con1-1{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
+    justify-content:space-around ;
+    
 }
 .close {
     color: #aaa;
@@ -601,35 +603,35 @@ body{
 }
 #modal-con1-2{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con1-3{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con1-4{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con1-5{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con1-6{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -637,77 +639,77 @@ body{
 }
 #modal-con2-1{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con2-2{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con2-3{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con2-4{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con2-5{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con2-6{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con3-1{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con3-2{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con3-3{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con3-4{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con3-5{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -715,133 +717,133 @@ body{
     /* wow  */
 }#modal-con3-6{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con4-1{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con4-2{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con4-3{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con4-4{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con4-5{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con4-6{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con5-1{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con5-2{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con5-3{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con5-4{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con5-5{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con5-6{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con6-1{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con6-2{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con6-3{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con6-4{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con6-5{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
 }#modal-con6-6{
     display: none;
-    background-color: #fefefe;
+    background-color: blue;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -852,3 +854,11 @@ a{
     color:gold;
 }
 
+.d{
+    margin: 5px;
+    color: whitesmoke;
+}
+.d:hover{
+    color:gold;
+    font-size: 40px;
+}
