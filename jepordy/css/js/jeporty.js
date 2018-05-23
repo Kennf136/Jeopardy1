@@ -51,6 +51,11 @@ var p5 = 500;
 var p6 = 600;
 
 
+var i=36
+
+
+
+
 
 btn1.onclick = function () {
     $('#modalback').css('display', 'grid');
@@ -273,6 +278,19 @@ btn36.onclick = function () {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 $('.close').click(function () {
     console.log("i am alive!!")
     $('#modalback').hide()
@@ -297,7 +315,7 @@ $("#modal-con1-1 .d").on("click", function () {
     console.log(answer);
     $('.score1').text(score1);
 })
-var i=36
+
 $(".close").on("click", function () {
     answer: null;
      console.log('I feel nothing');
@@ -319,6 +337,60 @@ $(".close").on("click", function () {
          }
         }
 )
+
+
+$(".d").on("click", function () {
+    $('#modalback').hide()
+    $('.m').hide()
+    if(i>0){
+        i--
+    }
+console.log(i)
+if(i==0) {
+    $('#modalback').css('display', 'grid');
+    $('#erric').css('display', 'grid');
+$(".close").on("click", function () {
+ $('#modalback').css('display', 'none');
+   $('#erric').css('display', 'none')
+                                    })
+            }
+                            })
+
+    
+    
+    
+        $(".g").on("click", function () {
+        $('#modalback').hide()
+        $('.m').hide()
+        if(i>0){
+            i--
+        }
+        console.log(i)
+        if(i==0) {
+            $('#modalback').css('display', 'grid');
+            $('#erric').css('display', 'grid');
+        $(".close").on("click", function () {
+         $('#modalback').css('display', 'none');
+           $('#erric').css('display', 'none')
+                                            })
+                    }
+                                    })
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 $('#modal-con1-2 .g').on("click", function () {
     answer= true;
