@@ -301,16 +301,23 @@ var i=36
 $(".close").on("click", function () {
     answer: null;
      console.log('I feel nothing');
-     
-         console.log(i)
-         if(i>0){
-             i--
-         }
-        
-        if(i==0) {
-                $('#modalback').css('display', 'grid');
+     $('#modalback').css('display', 'grid');
                 $('#erric').css('display', 'grid');
-                }
+        //  console.log(i)
+        //  if(i>0){
+        //      i--
+        //  }
+        
+        // if(i==0) {
+        //         $('#modalback').css('display', 'grid');
+        //         $('#erric').css('display', 'grid');
+        $(".close").on("click", function () {
+            answer: null;
+             console.log('I feel nothing');
+             $('#modalback').css('display', 'none');
+                             $('#erric').css('display', 'none');
+
+        //         }
          }
         
 )
