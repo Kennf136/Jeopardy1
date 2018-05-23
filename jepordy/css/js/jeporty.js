@@ -38,6 +38,7 @@ var btn33 = document.getElementById("questions6-3");
 var btn34 = document.getElementById("questions6-4");
 var btn35 = document.getElementById("questions6-5");
 var btn36 = document.getElementById("questions6-6");
+var btn37 = document.getElementById("erric")
 
 var answer = null;
 var close = $("button .close");
@@ -270,11 +271,7 @@ btn36.onclick = function () {
 
 
 
-// getElementsByClassName("close").onclick = function() {
-//     console.log("i am alive!!")
-//     document.getElementsById('modalback').style.display = 'none';
-// }
-// same as
+
 
 $('.close').click(function () {
     console.log("i am alive!!")
@@ -284,12 +281,7 @@ $('.close').click(function () {
 
 })
 
-
-
-
-$(".g").on("click", function () {
-    // write out as an if statement
-    // instead of creating a plus function, just += score1
+$('#modal-con1-1 .g').on("click", function () {
     answer= true;
     console.log("I love you");
     if (answer==true){score1 += p1 }
@@ -297,7 +289,7 @@ $(".g").on("click", function () {
     $('.score1').text(score1);
 } )
 
-$(".d").on("click", function () {
+$("#modal-con1-1 .d").on("click", function () {
     answer = false;
     console.log("I hate you fater");
     if (answer==false){score1 -= p1 }  
@@ -305,11 +297,585 @@ $(".d").on("click", function () {
     console.log(answer);
     $('.score1').text(score1);
 })
-
+var i=36
 $(".close").on("click", function () {
     answer: null;
      console.log('I feel nothing');
+     
+         console.log(i)
+         if(i>0){
+             i--
+         }
+        
+        if(i==0) {
+                $('#modalback').css('display', 'grid');
+                $('#erric').css('display', 'grid');
+                }
+         }
+        
+)
+
+$('#modal-con1-2 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p1 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con1-2 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p1 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
 })
+$('#modal-con1-3 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p1 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con1-3 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p1 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con1-4 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p1 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con1-4 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p1 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con1-5 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p1 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con1-5 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p1 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con1-6 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p1 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con1-6 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p1 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con2-1 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p2 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con2-1 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p2 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con2-2 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p2 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con2-2 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p2 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con2-3 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p2 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con2-3 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p2 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con2-5 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p2 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con2-5 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p2 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con2-4 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p2 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con2-4 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p2 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con2-6 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p2 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con2-6 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p2 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con3-1 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p3 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con3-1 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p3 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con3-2 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p3 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con3-2 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p3 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con3-3 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p3 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con3-3 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p3 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con3-4 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p3 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con3-4 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p3 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con3-5 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p3 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con3-5 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p3 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con3-6 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p3 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con3-6 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p3 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con4-1 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p4 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con4-1 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p4 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con4-2 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p4 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con4-2 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p4 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con4-3 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p4 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con4-3 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p4 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con4-4 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p4 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con4-4 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p4 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con4-5 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p4 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con4-5 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p4 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con4-6 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p4 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con4-6 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p4 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con5-1 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p5 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con5-1 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p5 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con5-2 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p5 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con5-2 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p5 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con5-3 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p5 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con5-3 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p5 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con5-4 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p5 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con5-4 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p5 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con5-5 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p5 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con5-5 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p5 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con5-6 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p5 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con5-6 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p5 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con6-1 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p6 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con6-1 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p6 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con6-2 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p6 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con6-2 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p6 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con6-3 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p6 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con6-3 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p6 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con6-4 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p6 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con6-4 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p6 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con6-5 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p6 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con6-5 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p6 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+$('#modal-con6-6 .g').on("click", function () {
+    answer= true;
+    console.log("I love you");
+    if (answer==true){score1 += p6 }
+    console.log(score1);
+    $('.score1').text(score1);
+} )
+
+$("#modal-con6-6 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer==false){score1 -= p6 }  
+    console.log(score1) ; 
+    console.log(answer);
+    $('.score1').text(score1);
+})
+
 
 
 
@@ -348,6 +914,12 @@ $(".close").on("click", function () {
     // $('.g').click(function(){ answer=true; })
     // $('.d').click(function(){answer=false;})
 
+
+    // function boo() {
+
+// write out as an if statement
+    // instead of creating a plus function, just += score1
+
     // if (answer=true){
     //     console.log('Yes');
     // }
@@ -355,3 +927,9 @@ $(".close").on("click", function () {
     //     console.log('No');}
 // }
 // $('.c').click(boo())
+
+// getElementsByClassName("close").onclick = function() {
+//     console.log("i am alive!!")
+//     document.getElementsById('modalback').style.display = 'none';
+// }
+// same as

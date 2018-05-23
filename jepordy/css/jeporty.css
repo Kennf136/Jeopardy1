@@ -911,7 +911,7 @@ border: gold;
 }
 
 .score1{
-    color: gold;
+    color:black;
 }
 #modalback {
     display: none ;
@@ -924,7 +924,18 @@ border: gold;
     overflow: auto;
     background-color: rgba(0,0,0,0.4)
 }
-
+#erric{
+    display: none;
+    background-color: blue;
+    margin: 15% auto;
+    padding: 20px;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: 1px solid #888;
+    width: 80%; 
+    justify-content:space-around ;
+    
+}
 #modal-con1-1{
     display: none;
     background-color: blue;
