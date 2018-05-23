@@ -587,6 +587,8 @@ body{
 
 #questions1-1:hover {
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -594,6 +596,7 @@ body{
 }
 #questions1-2:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -601,6 +604,7 @@ body{
 }
 #questions1-3:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -608,13 +612,15 @@ body{
 }
 #questions1-4:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
 
 }
 #questions1-5:hover{ 
-    transition: 2s;
+    transition: 2s;   
+     background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -622,6 +628,7 @@ body{
 }
 #questions1-6:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -629,6 +636,7 @@ body{
 }
 #questions2-1:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -636,6 +644,7 @@ body{
 }
 #questions2-2:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -643,6 +652,7 @@ body{
 }
 #questions2-3:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -650,6 +660,7 @@ body{
 }
 #questions2-4:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -657,6 +668,7 @@ body{
 }
 #questions2-5:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -664,6 +676,7 @@ body{
 }
 #questions2-6:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -671,6 +684,7 @@ body{
 }
 #questions3-1:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -678,6 +692,7 @@ body{
 }
 #questions3-1:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -685,6 +700,7 @@ body{
 }
 #questions3-2:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -692,6 +708,7 @@ body{
 }
 #questions3-3:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -699,6 +716,7 @@ body{
 }
 #questions3-4:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -706,6 +724,7 @@ body{
 }
 #questions3-5:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -713,6 +732,7 @@ body{
 }
 #questions3-6:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -721,6 +741,7 @@ body{
 }
 #questions4-1:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -728,6 +749,7 @@ body{
 }
 #questions4-2:hover{ 
     transition: 2s;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
     border: gold;
     font-size:110px;
     font-weight: bold;
@@ -735,56 +757,74 @@ body{
 }
 #questions4-3:hover{ 
     transition: 2s;
-    border: gold;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+        background: linear-gradient(to right, #a4bafa, #2948ff); 
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+    
+border: gold;
     font-size:110px;
     font-weight: bold;
 
 }
 #questions4-4:hover{ 
     transition: 2s;
-    border: gold;
+        background: linear-gradient(to right, #a4bafa, #2948ff); 
+   
+border: gold;
     font-size:110px;
     font-weight: bold;
 
 }
 #questions4-5:hover{ 
     transition: 2s;
-    border: gold;
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+ 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
 }
 #questions4-6:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
 }
 #questions5-1:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
 }
 #questions5-2:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
 }
 #questions5-3:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
 }
 #questions5-4:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
@@ -792,7 +832,9 @@ body{
 }
 #questions5-5:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
@@ -800,7 +842,9 @@ body{
 }
 #questions5-6:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
@@ -808,7 +852,9 @@ body{
 }
 #questions6-1:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
@@ -816,7 +862,9 @@ body{
 }
 #questions6-2:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
@@ -824,7 +872,9 @@ body{
 }
 #questions6-3:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
@@ -832,7 +882,9 @@ body{
 }
 #questions6-4:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
@@ -840,7 +892,9 @@ body{
 }
 #questions6-5:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
@@ -848,7 +902,9 @@ body{
 }
 #questions6-6:hover{ 
     transition: 2s;
-    border: gold;
+         
+    background: linear-gradient(to right, #889ef8, #2948ff); 
+border: gold;
     font-size:110px;
     font-weight: bold;
 
@@ -874,7 +930,9 @@ body{
     background-color: blue;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+         
+    background: linear-gradient(to right, #a4bafa, #2948ff); 
+border: 1px solid #888;
     width: 80%; 
     justify-content:space-around ;
     

@@ -290,19 +290,19 @@ $('.close').click(function () {
 $(".g").on("click", function () {
     // write out as an if statement
     // instead of creating a plus function, just += score1
-    
-    answer: true;
+    answer= true;
     console.log("I love you");
-    if (answer=true){score1 += p1 }
+    if (answer==true){score1 += p1 }
     console.log(score1);
     $('.score1').text(score1);
-})
+} )
 
 $(".d").on("click", function () {
-    answer= false;
+    answer = false;
     console.log("I hate you fater");
-    if (answer= false){score1 -=  p1 }
-    console.log(score1);
+    if (answer==false){score1 -= p1 }  
+    console.log(score1) ; 
+    console.log(answer);
     $('.score1').text(score1);
 })
 
@@ -311,10 +311,7 @@ $(".close").on("click", function () {
      console.log('I feel nothing');
 })
 
-myAnswer = () => {
-    console.log(answer);
-}
-myAnswer()
+
 
 
 
