@@ -39,7 +39,7 @@ var btn34 = document.getElementById("questions6-4");
 var btn35 = document.getElementById("questions6-5");
 var btn36 = document.getElementById("questions6-6");
 
-var answer= ''
+var answer=null;
 var close = $("button .close");
 
 btn1.onclick = function () {
@@ -271,7 +271,7 @@ $('.close').click(function () {
     console.log("i am alive!!")
     $('#modalback').hide()
     $('.m').hide()
-    var answer=''
+    // var answer=''
 
 })
 function click(){
