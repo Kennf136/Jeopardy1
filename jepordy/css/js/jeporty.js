@@ -293,14 +293,16 @@ $(".g").on("click", function () {
     
     answer: true;
     console.log("I love you");
-    if (answer=true){score1 = + p1} return score1 ;
+    if (answer=true){score1 += p1 }
+    console.log(score1);
     $('.score1').text(score1);
 })
 
 $(".d").on("click", function () {
-    answer: false;
-    console.log('I hate you father');
-     score1 = - p1 ;
+    answer= false;
+    console.log("I hate you fater");
+    if (answer= false){score1 -=  p1 }
+    console.log(score1);
     $('.score1').text(score1);
 })
 
