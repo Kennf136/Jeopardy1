@@ -274,11 +274,17 @@ $('.close').click(function () {
     var answer=''
 
 })
+function click(){
+            if( $('.g').click){ answer=true; console.log('Yes'); }
+           else if( $('.d').click){ answer=false;  console.log('No');}
+           else{answer=null;}
+// $('.g').click(function(){ answer=true; })
+// $('.d').click(function(){answer=false;})
 
-$('.g').click(function(){ answer=true; })
-$('.d').click(function(){answer=false;})
-
-if (answer=true){
-    console.log('Yes');
+// if (answer=true){
+//     console.log('Yes');
+// }
+// else if(answer=false){
+//     console.log('No');}
 }
-else if(answer=false){console.log('No')}
+click()
