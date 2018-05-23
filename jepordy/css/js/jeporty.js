@@ -301,25 +301,23 @@ var i=36
 $(".close").on("click", function () {
     answer: null;
      console.log('I feel nothing');
-     $('#modalback').css('display', 'grid');
-                $('#erric').css('display', 'grid');
-        //  console.log(i)
-        //  if(i>0){
-        //      i--
-        //  }
+    //  $('#modalback').css('display', 'grid');
+    //             $('#erric').css('display', 'grid');
+         console.log(i)
+         if(i>0){
+             i--
+         }
         
-        // if(i==0) {
-        //         $('#modalback').css('display', 'grid');
-        //         $('#erric').css('display', 'grid');
+        if(i==0) {
+                $('#modalback').css('display', 'grid');
+                $('#erric').css('display', 'grid');
         $(".close").on("click", function () {
-            answer: null;
-             console.log('I feel nothing');
              $('#modalback').css('display', 'none');
                              $('#erric').css('display', 'none');
 
-        //         }
+                })
          }
-        
+        }
 )
 
 $('#modal-con1-2 .g').on("click", function () {
