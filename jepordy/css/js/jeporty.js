@@ -39,8 +39,17 @@ var btn34 = document.getElementById("questions6-4");
 var btn35 = document.getElementById("questions6-5");
 var btn36 = document.getElementById("questions6-6");
 
-var answer=null;
+var answer = null;
 var close = $("button .close");
+var score1 = 0;
+var p1 = 100;
+var p2 = 200;
+var p3 = 300;
+var p4 = 400;
+var p5 = 500;
+var p6 = 600;
+
+
 
 btn1.onclick = function () {
     $('#modalback').css('display', 'grid');
@@ -274,17 +283,76 @@ $('.close').click(function () {
     // var answer=''
 
 })
-function click(){
-            if( $('.g').click){ answer=true; console.log('Yes'); }
-           else if( $('.d').click){ answer=false;  console.log('No');}
-           else{answer=null;}
-// $('.g').click(function(){ answer=true; })
-// $('.d').click(function(){answer=false;})
 
-// if (answer=true){
-//     console.log('Yes');
-// }
-// else if(answer=false){
-//     console.log('No');}
+
+
+
+$(".g").on("click", function () {
+    // write out as an if statement
+    // instead of creating a plus function, just += score1
+    
+    answer: true;
+    console.log("I love you");
+    if (answer=true){score1 = + p1} return score1 ;
+    $('.score1').text(score1);
+})
+
+$(".d").on("click", function () {
+    answer: false;
+    console.log('I hate you father');
+     score1 = - p1 ;
+    $('.score1').text(score1);
+})
+
+$(".close").on("click", function () {
+    answer: null;
+     console.log('I feel nothing');
+})
+
+myAnswer = () => {
+    console.log(answer);
 }
-click()
+myAnswer()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function boo() {
+//    if( $(this).hasClass('.g')){answer=true; coonsole.log('true');}
+
+//     else if ($(this).hasClass('.d')) { answer = false; console.log('No');}
+// else { answer = null; }
+    // $('.g').click(function(){ answer=true; })
+    // $('.d').click(function(){answer=false;})
+
+    // if (answer=true){
+    //     console.log('Yes');
+    // }
+    // else if(answer=false){
+    //     console.log('No');}
+// }
+// $('.c').click(boo())

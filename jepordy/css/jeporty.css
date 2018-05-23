@@ -854,7 +854,9 @@ body{
 
 }
 
-
+.score1{
+    color: gold;
+}
 #modalback {
     display: none ;
     position: fixed;
