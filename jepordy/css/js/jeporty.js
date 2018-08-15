@@ -32,23 +32,17 @@ var btn27 = document.getElementById("questions5-3");
 var btn28 = document.getElementById("questions5-4");
 var btn29 = document.getElementById("questions5-5");
 var btn30 = document.getElementById("questions5-6");
-var btn31 = document.getElementById("questions6-1");
-var btn32 = document.getElementById("questions6-2");
-var btn33 = document.getElementById("questions6-3");
-var btn34 = document.getElementById("questions6-4");
-var btn35 = document.getElementById("questions6-5");
-var btn36 = document.getElementById("questions6-6");
 var btn37 = document.getElementById("erric")
 
 var answer = null;
 var close = $("button .close");
 var score1 = 0;
-var p1 = 100;
-var p2 = 200;
-var p3 = 300;
-var p4 = 400;
-var p5 = 500;
-var p6 = 600;
+var p1 = 200;
+var p2 = 400;
+var p3 = 600;
+var p4 = 800;
+var p5 = 1000;
+
 
 
 var i = 36
@@ -91,7 +85,7 @@ btn5.onclick = function () {
 btn6.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con1-6').css('display', 'grid');
-    $('.points6').hide()
+    $('.points5').hide()
 
 }
 btn7.onclick = function () {
@@ -127,7 +121,7 @@ btn11.onclick = function () {
 btn12.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con2-6').css('display', 'grid');
-    $('.points12').hide()
+    $('.points5').hide()
 
 }
 btn13.onclick = function () {
@@ -161,61 +155,13 @@ btn17.onclick = function () {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 btn18.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con3-6').css('display', 'grid');
-    $('.points18').hide()
+    $('.points5').hide()
 
 }
+
 btn19.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con4-1').css('display', 'grid');
@@ -246,10 +192,11 @@ btn23.onclick = function () {
     $('.points23').hide()
 
 }
+
 btn24.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con4-6').css('display', 'grid');
-    $('.points24').hide()
+    $('.points5').hide()
 
 }
 btn25.onclick = function () {
@@ -282,62 +229,13 @@ btn29.onclick = function () {
     $('.points29').hide()
 
 }
+
 btn30.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con5-6').css('display', 'grid');
-    $('.points30').hide()
+    $('.points5').hide()
 
 }
-btn31.onclick = function () {
-    $('#modalback').css('display', 'grid');
-    $('#modal-con6-1').css('display', 'grid');
-    $('.points31').hide()
-
-}
-btn32.onclick = function () {
-    $('#modalback').css('display', 'grid');
-    $('#modal-con6-2').css('display', 'grid');
-    $('.points32').hide()
-
-}
-btn33.onclick = function () {
-    $('#modalback').css('display', 'grid');
-    $('#modal-con6-3').css('display', 'grid');
-    $('.points33').hide()
-
-}
-btn34.onclick = function () {
-    $('#modalback').css('display', 'grid');
-    $('#modal-con6-4').css('display', 'grid');
-    $('.points34').hide()
-
-}
-btn35.onclick = function () {
-    $('#modalback').css('display', 'grid');
-    $('#modal-con6-5').css('display', 'grid');
-    $('.points35').hide()
-
-}
-btn36.onclick = function () {
-    $('#modalback').css('display', 'grid');
-    $('#modal-con6-6').css('display', 'grid');
-    $('.points36').hide()
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -349,22 +247,7 @@ $('.close').click(function () {
 
 })
 
-$('#modal-con1-1 .g').on("click", function () {
-    answer = true;
-    console.log("I love you");
-    if (answer == true) { score1 += p1 }
-    console.log(score1);
-    $('.score1').text(score1);
-})
 
-$("#modal-con1-1 .d").on("click", function () {
-    answer = false;
-    console.log("I hate you fater");
-    if (answer == false) { score1 -= p1 }
-    console.log(score1);
-    console.log(answer);
-    $('.score1').text(score1);
-})
 
 $(".close").on("click", function () {
     answer: null;
@@ -428,19 +311,22 @@ $(".g").on("click", function () {
 
 
 
+$('#modal-con1-1 .g').on("click", function () {
+    answer = true;
+    console.log("I love you");
+    if (answer == true) { score1 += p1 }
+    console.log(score1);
+    $('.score1').text(score1);
+})
 
-
-
-
-
-
-
-
-
-
-
-
-
+$("#modal-con1-1 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer == false) { score1 -= p1 }
+    console.log(score1);
+    console.log(answer);
+    $('.score1').text(score1);
+})
 
 $('#modal-con1-2 .g').on("click", function () {
     answer = true;
@@ -522,6 +408,7 @@ $("#modal-con1-6 .d").on("click", function () {
     console.log(answer);
     $('.score1').text(score1);
 })
+
 $('#modal-con2-1 .g').on("click", function () {
     answer = true;
     console.log("I love you");
@@ -605,7 +492,7 @@ $("#modal-con2-4 .d").on("click", function () {
 $('#modal-con2-6 .g').on("click", function () {
     answer = true;
     console.log("I love you");
-    if (answer == true) { score1 += p2 }
+    if (answer == true) { score1 += p1 }
     console.log(score1);
     $('.score1').text(score1);
 })
@@ -613,7 +500,7 @@ $('#modal-con2-6 .g').on("click", function () {
 $("#modal-con2-6 .d").on("click", function () {
     answer = false;
     console.log("I hate you fater");
-    if (answer == false) { score1 -= p2 }
+    if (answer == false) { score1 -= p1 }
     console.log(score1);
     console.log(answer);
     $('.score1').text(score1);
@@ -701,7 +588,7 @@ $("#modal-con3-5 .d").on("click", function () {
 $('#modal-con3-6 .g').on("click", function () {
     answer = true;
     console.log("I love you");
-    if (answer == true) { score1 += p3 }
+    if (answer == true) { score1 += p1 }
     console.log(score1);
     $('.score1').text(score1);
 })
@@ -709,7 +596,7 @@ $('#modal-con3-6 .g').on("click", function () {
 $("#modal-con3-6 .d").on("click", function () {
     answer = false;
     console.log("I hate you fater");
-    if (answer == false) { score1 -= p3 }
+    if (answer == false) { score1 -= p1 }
     console.log(score1);
     console.log(answer);
     $('.score1').text(score1);
@@ -797,7 +684,7 @@ $("#modal-con4-5 .d").on("click", function () {
 $('#modal-con4-6 .g').on("click", function () {
     answer = true;
     console.log("I love you");
-    if (answer == true) { score1 += p4 }
+    if (answer == true) { score1 += p1 }
     console.log(score1);
     $('.score1').text(score1);
 })
@@ -805,7 +692,7 @@ $('#modal-con4-6 .g').on("click", function () {
 $("#modal-con4-6 .d").on("click", function () {
     answer = false;
     console.log("I hate you fater");
-    if (answer == false) { score1 -= p4 }
+    if (answer == false) { score1 -= p1 }
     console.log(score1);
     console.log(answer);
     $('.score1').text(score1);
@@ -890,10 +777,11 @@ $("#modal-con5-5 .d").on("click", function () {
     console.log(answer);
     $('.score1').text(score1);
 })
+
 $('#modal-con5-6 .g').on("click", function () {
     answer = true;
     console.log("I love you");
-    if (answer == true) { score1 += p5 }
+    if (answer == true) { score1 += p1 }
     console.log(score1);
     $('.score1').text(score1);
 })
@@ -901,103 +789,7 @@ $('#modal-con5-6 .g').on("click", function () {
 $("#modal-con5-6 .d").on("click", function () {
     answer = false;
     console.log("I hate you fater");
-    if (answer == false) { score1 -= p5 }
-    console.log(score1);
-    console.log(answer);
-    $('.score1').text(score1);
-})
-$('#modal-con6-1 .g').on("click", function () {
-    answer = true;
-    console.log("I love you");
-    if (answer == true) { score1 += p6 }
-    console.log(score1);
-    $('.score1').text(score1);
-})
-
-$("#modal-con6-1 .d").on("click", function () {
-    answer = false;
-    console.log("I hate you fater");
-    if (answer == false) { score1 -= p6 }
-    console.log(score1);
-    console.log(answer);
-    $('.score1').text(score1);
-})
-$('#modal-con6-2 .g').on("click", function () {
-    answer = true;
-    console.log("I love you");
-    if (answer == true) { score1 += p6 }
-    console.log(score1);
-    $('.score1').text(score1);
-})
-
-$("#modal-con6-2 .d").on("click", function () {
-    answer = false;
-    console.log("I hate you fater");
-    if (answer == false) { score1 -= p6 }
-    console.log(score1);
-    console.log(answer);
-    $('.score1').text(score1);
-})
-$('#modal-con6-3 .g').on("click", function () {
-    answer = true;
-    console.log("I love you");
-    if (answer == true) { score1 += p6 }
-    console.log(score1);
-    $('.score1').text(score1);
-})
-
-$("#modal-con6-3 .d").on("click", function () {
-    answer = false;
-    console.log("I hate you fater");
-    if (answer == false) { score1 -= p6 }
-    console.log(score1);
-    console.log(answer);
-    $('.score1').text(score1);
-})
-$('#modal-con6-4 .g').on("click", function () {
-    answer = true;
-    console.log("I love you");
-    if (answer == true) { score1 += p6 }
-    console.log(score1);
-    $('.score1').text(score1);
-})
-
-$("#modal-con6-4 .d").on("click", function () {
-    answer = false;
-    console.log("I hate you fater");
-    if (answer == false) { score1 -= p6 }
-    console.log(score1);
-    console.log(answer);
-    $('.score1').text(score1);
-})
-$('#modal-con6-5 .g').on("click", function () {
-    answer = true;
-    console.log("I love you");
-    if (answer == true) { score1 += p6 }
-    console.log(score1);
-    $('.score1').text(score1);
-})
-
-$("#modal-con6-5 .d").on("click", function () {
-    answer = false;
-    console.log("I hate you fater");
-    if (answer == false) { score1 -= p6 }
-    console.log(score1);
-    console.log(answer);
-    $('.score1').text(score1);
-})
-$('#modal-con6-6 .g').on("click", function () {
-    answer = true;
-    console.log("I love you");
-    if (answer == true) { score1 += p6 }
-    console.log(score1);
-    $('.score1').text(score1);
-})
-
-$("#modal-con6-6 .d").on("click", function () {
-    answer = false;
-    console.log("I hate you fater");
-    if (answer == false) { score1 -= p6 }
+    if (answer == false) { score1 -= p1 }
     console.log(score1);
     console.log(answer);
     $('.score1').text(score1);
@@ -1031,32 +823,3 @@ $("#modal-con6-6 .d").on("click", function () {
 
 
 
-
-
-// function boo() {
-//    if( $(this).hasClass('.g')){answer=true; coonsole.log('true');}
-
-//     else if ($(this).hasClass('.d')) { answer = false; console.log('No');}
-// else { answer = null; }
-    // $('.g').click(function(){ answer=true; })
-    // $('.d').click(function(){answer=false;})
-
-
-    // function boo() {
-
-// write out as an if statement
-    // instead of creating a plus function, just += score1
-
-    // if (answer=true){
-    //     console.log('Yes');
-    // }
-    // else if(answer=false){
-    //     console.log('No');}
-// }
-// $('.c').click(boo())
-
-// getElementsByClassName("close").onclick = function() {
-//     console.log("i am alive!!")
-//     document.getElementsById('modalback').style.display = 'none';
-// }
-// same as
