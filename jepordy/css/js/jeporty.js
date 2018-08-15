@@ -85,7 +85,7 @@ btn5.onclick = function () {
 btn6.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con1-6').css('display', 'grid');
-    $('.points5').hide()
+    $('.points6').hide()
 
 }
 btn7.onclick = function () {
@@ -121,7 +121,7 @@ btn11.onclick = function () {
 btn12.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con2-6').css('display', 'grid');
-    $('.points5').hide()
+    $('.points12').hide()
 
 }
 btn13.onclick = function () {
@@ -158,7 +158,7 @@ btn17.onclick = function () {
 btn18.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con3-6').css('display', 'grid');
-    $('.points5').hide()
+    $('.points18').hide()
 
 }
 
@@ -196,7 +196,7 @@ btn23.onclick = function () {
 btn24.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con4-6').css('display', 'grid');
-    $('.points5').hide()
+    $('.points24').hide()
 
 }
 btn25.onclick = function () {
@@ -233,7 +233,7 @@ btn29.onclick = function () {
 btn30.onclick = function () {
     $('#modalback').css('display', 'grid');
     $('#modal-con5-6').css('display', 'grid');
-    $('.points5').hide()
+    $('.points30').hide()
 
 }
 
@@ -457,22 +457,7 @@ $("#modal-con2-3 .d").on("click", function () {
     console.log(answer);
     $('.score1').text(score1);
 })
-$('#modal-con2-5 .g').on("click", function () {
-    answer = true;
-    console.log("I love you");
-    if (answer == true) { score1 += p2 }
-    console.log(score1);
-    $('.score1').text(score1);
-})
 
-$("#modal-con2-5 .d").on("click", function () {
-    answer = false;
-    console.log("I hate you fater");
-    if (answer == false) { score1 -= p2 }
-    console.log(score1);
-    console.log(answer);
-    $('.score1').text(score1);
-})
 $('#modal-con2-4 .g').on("click", function () {
     answer = true;
     console.log("I love you");
@@ -489,10 +474,26 @@ $("#modal-con2-4 .d").on("click", function () {
     console.log(answer);
     $('.score1').text(score1);
 })
+$('#modal-con2-5 .g').on("click", function () {
+    answer = true;
+    console.log("I love you");
+    if (answer == true) { score1 += p2 }
+    console.log(score1);
+    $('.score1').text(score1);
+})
+
+$("#modal-con2-5 .d").on("click", function () {
+    answer = false;
+    console.log("I hate you fater");
+    if (answer == false) { score1 -= p2 }
+    console.log(score1);
+    console.log(answer);
+    $('.score1').text(score1);
+})
 $('#modal-con2-6 .g').on("click", function () {
     answer = true;
     console.log("I love you");
-    if (answer == true) { score1 += p1 }
+    if (answer == true) { score1 += p2 }
     console.log(score1);
     $('.score1').text(score1);
 })
@@ -500,7 +501,7 @@ $('#modal-con2-6 .g').on("click", function () {
 $("#modal-con2-6 .d").on("click", function () {
     answer = false;
     console.log("I hate you fater");
-    if (answer == false) { score1 -= p1 }
+    if (answer == false) { score1 -= p2 }
     console.log(score1);
     console.log(answer);
     $('.score1').text(score1);
@@ -588,7 +589,7 @@ $("#modal-con3-5 .d").on("click", function () {
 $('#modal-con3-6 .g').on("click", function () {
     answer = true;
     console.log("I love you");
-    if (answer == true) { score1 += p1 }
+    if (answer == true) { score1 += p3 }
     console.log(score1);
     $('.score1').text(score1);
 })
@@ -596,7 +597,7 @@ $('#modal-con3-6 .g').on("click", function () {
 $("#modal-con3-6 .d").on("click", function () {
     answer = false;
     console.log("I hate you fater");
-    if (answer == false) { score1 -= p1 }
+    if (answer == false) { score1 -= p3 }
     console.log(score1);
     console.log(answer);
     $('.score1').text(score1);
@@ -684,7 +685,7 @@ $("#modal-con4-5 .d").on("click", function () {
 $('#modal-con4-6 .g').on("click", function () {
     answer = true;
     console.log("I love you");
-    if (answer == true) { score1 += p1 }
+    if (answer == true) { score1 += p4 }
     console.log(score1);
     $('.score1').text(score1);
 })
@@ -692,7 +693,7 @@ $('#modal-con4-6 .g').on("click", function () {
 $("#modal-con4-6 .d").on("click", function () {
     answer = false;
     console.log("I hate you fater");
-    if (answer == false) { score1 -= p1 }
+    if (answer == false) { score1 -= p4 }
     console.log(score1);
     console.log(answer);
     $('.score1').text(score1);
@@ -781,7 +782,7 @@ $("#modal-con5-5 .d").on("click", function () {
 $('#modal-con5-6 .g').on("click", function () {
     answer = true;
     console.log("I love you");
-    if (answer == true) { score1 += p1 }
+    if (answer == true) { score1 += p5 }
     console.log(score1);
     $('.score1').text(score1);
 })
@@ -789,7 +790,7 @@ $('#modal-con5-6 .g').on("click", function () {
 $("#modal-con5-6 .d").on("click", function () {
     answer = false;
     console.log("I hate you fater");
-    if (answer == false) { score1 -= p1 }
+    if (answer == false) { score1 -= p5 }
     console.log(score1);
     console.log(answer);
     $('.score1').text(score1);
